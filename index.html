@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Rising Events</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit =no">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
     <script src="main.js"></script>
+
+    <title>Rising Events</title>
 
     <!--Bootstrap 4-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -15,59 +17,73 @@
 
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1>
-                    Rising Events
-                </h1>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Rising Events</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ABOUT US
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">The Company</a>
+                        <a class="dropdown-item" href="#">Our Role</a>
+                        <a class="dropdown-item" href="#">Deliverables</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            SERVICES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Brand Activation</a>
+                            <a class="dropdown-item" href="#">Exhibition and Promotion</a>
+                            <a class="dropdown-item" href="#">Entertainment Events</a>
+                            <a class="dropdown-item" href="#">Designer Wedding</a>
+                            <a class="dropdown-item" href="#">Customized Social Events</a>
+                            <a class="dropdown-item" href="#">Celebrities and Gigs</a>
+                        </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">GALLERY</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        CLIENTS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Testimonials</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NEWS</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        WANNA RISE
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Why Join Us?</a>
+                        <a class="dropdown-item" href="#">Job Listing</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT US</a>
+                </li>
+
+            </ul>
             </div>
-            <nav>
-                <li class="current"><a href ="index.html">HOME</a></li>
-                <div class = dropdown>
-                        <li class="dropbtn"><a href ="#">ABOUT US</a><i class="fa fa-caret-down"  aria-hidden="true"></i></li>
-                    <div class="dropdown-content">
-                        <a href="#">The Company</a>
-                        <a href="#">Our Role</a>
-                        <a href="#">Deliverables</a>
-                    </div>
-                </div>
+        </nav>
+      </div>
 
-                <div class = dropdown>
-                    <li class="dropbtn"><a href ="#">SERVICES</a><i class="fa fa-caret-down"  aria-hidden="true"></i></li>
-                    <div class="dropdown-content">
-                        <a href="#">Brand Activation</a>
-                        <a href="#">Exhibition and Promotion</a>
-                        <a href="#">Entertainment Events</a>
-                        <a href="#">Designer Wedding</a>
-                        <a href="#">Customized Social Events</a>
-                        <a href="#">Celebrities and Gigs</a>
-                    </div>
-                </div>
-
-                <li><a href ="#">GALLERY</a></li>
-
-                <div class = dropdown>
-                    <li class="dropbtn"><a href ="#">CLIENTS</a><i class="fa fa-caret-down"  aria-hidden="true"></i></li>
-                    <div class="dropdown-content">
-                        <a href="#">Testimonials</a>
-                    </div>
-                </div>
-
-                <li><a href ="#">NEWS</a></li>
-                
-                <div class = dropdown>
-                    <li class ="dropbtn"><a href ="#">WANNA RISE</a><i class="fa fa-caret-down"  aria-hidden="true"></i></li>
-                    <div class="dropdown-content">
-                        <a href="#">Why Join Us?</a>
-                        <a href="#">Job Listing</a>
-                    </div>
-                </div>
-                
-                <li><a href ="#">CONTACT US</a></li>
-            </nav>
-        </div>
-    </header>
 
     <section id="showcase">
         <div class="container" style="color: white">
@@ -75,10 +91,14 @@
         </div>
     </section>
 
-    <footer>
+    <div class="footer">
         <p>Rising Events, CopyRight &copy; All Rights Reserved</p>
-    </footer>
+    </div>
 
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
 </body>
 </html>
